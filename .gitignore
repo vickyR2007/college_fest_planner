@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# QR ticket demo storage and integration backups
+data/qr-tickets.json
+.festos-qr-backup/
+.env
+.env.local
+
+.vercel
